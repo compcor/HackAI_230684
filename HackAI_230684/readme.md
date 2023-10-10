@@ -24,7 +24,8 @@ Step 2 - After getting api, replace the api_key and base_url with your key and u
 Step 3 - Remove or comment the code block which used .env file (commented in the main.py)
 
 Step 4 - In terminal, inside src folder run 
-            
+
+            poetry install
             poetry init -n && poetry shell
             pip install uagents
             python main.py
