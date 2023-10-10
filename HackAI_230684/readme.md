@@ -14,7 +14,7 @@ Step 2 - Change the api
 
 Step 3 - Run the main.py file
 
-**API Configuration :**
+**Detailed Configuration :**
 
 Step 1 - Free Sign up for OpenWeather and you will recieve api key in your email. link - https://home.openweathermap.org/users/sign_up  
 
