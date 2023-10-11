@@ -8,7 +8,7 @@ This project let's the user choose a city, which one wants to monitor. Then the 
 
 Note - Internet connectivity is required
 
-Step 1 - Clone the repository
+Step 1 - Clone the repository or Download zip file in a folder
 
 Step 2 - Change the api
 
@@ -25,10 +25,11 @@ Step 3 - Remove or comment the code block which used .env file (commented in the
 
 Step 4 - In terminal, inside src folder run the following commands (Python should be installed)
 
-            poetry init -n && poetry shell
+            poetry init -n
+            poetry shell (You should be inside virtual enviornment)
             poetry install
             pip install uagents
-            python3 main.py
+            python3 main.py (api key and base url should be replaced with yours to be executed in your computer)
 
 Step 5 - Enter the city and temperature (give less difference value) so that all three cases ie below, above and within range temperature can be observed
 
