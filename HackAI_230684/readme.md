@@ -28,7 +28,7 @@ Step 4 - In terminal, inside src folder run the following commands (Python shoul
             poetry init -n && poetry shell
             poetry install
             pip install uagents
-            python main.py
+            python3 main.py
 
 Step 5 - Enter the city and temperature (give less difference value) so that all three cases ie below, above and within range temperature can be observed
 
