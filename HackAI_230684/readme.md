@@ -18,7 +18,7 @@ Step 3 - Run the main.py file
 
 Step 1 - Free Sign up for OpenWeather and you will recieve api key in your email. link - https://home.openweathermap.org/users/sign_up  
 
-Step 2 - After getting api, replace the api_key and base_url with your key and url in the email  
+Step 2 - After getting api, replace the api_key and base_url with your key and url in the main.py file inside src folder 
          Note - for base_url, copy the url from point mentioned in the email as 'Example of API call:' only till '....weather?'
 
 Step 3 - Remove or comment the code block which used .env file (commented in the main.py)
